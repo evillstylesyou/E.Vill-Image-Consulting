@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>N. Agenecy</title>
+    <title>E.Vill Image Consulting</title>
     
     <meta name="description" content="N.Agency - Responisve Landing Page for Agency">
     <meta name="keywords" content="">
@@ -37,6 +37,14 @@
     
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+	<style>
+	
+	.tp-mask-wrap{
+	background-color:rgb(255 255 255);
+	opacity:0.6;
+	}  
+	
+	</style>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -90,7 +98,7 @@
 							  <li><a data-scroll href="#about">About</a></li>
                                     <li><a data-scroll href="#portfolio">Portfolio</a></li>
                                     
-                                    <li><a data-scroll href="#testimonials">Testimonials</a></li>                      
+                                                          
                                     <li><a data-scroll href="#contact">Contact</a></li>
                                 </ul>
 
@@ -211,7 +219,7 @@
                     data-splitout="none" 
                     data-responsive_offset="on" 
                     data-elementdelay="0.05"                    
-                    style="z-index: 5; white-space: nowrap;">Rediscovr, Reinvent, Radiate
+                    style="z-index: 5; white-space: nowrap;">Rediscover, Reinvent, Radiate
                   </div>
 
                   <!-- LAYER NR. 2 -->
@@ -288,7 +296,7 @@
                 <div class="col-md-3 col-sm-6 m-bottom-20">              
                     <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">               
                         <div class="service-icon">
-                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                            <i class="fa fa-handshake-o" aria-hidden="true"></i>
                         </div>
                         <h4>Initial Consultation</h4>
                         <div class="service-text">
@@ -302,7 +310,7 @@ This service can be provided virtually or in-person.</p>
                 <div class="col-md-3 col-sm-6 m-bottom-20">              
                     <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">               
                         <div class="service-icon">
-                            <i class="fa fa-video-camera" aria-hidden="true"></i>
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                         </div>
                         <h4>Closet Evaluation</h4>
                         <div class="service-text">
@@ -315,7 +323,7 @@ This service can be provided virtually or in-person.</p>
                 <div class="col-md-3 col-sm-6 m-bottom-20">              
                     <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">              
                         <div class="service-icon">
-                            <i class="fa fa-modx" aria-hidden="true"></i>
+                            <i class="fa fa-camera-retro" aria-hidden="true"></i>
                         </div>
                         <h4>Styling for Events</h4>
                         <div class="service-text">
@@ -328,7 +336,7 @@ This service can be provided virtually or in-person.</p>
                 <div class="col-md-3 col-sm-6">              
                     <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">              
                         <div class="service-icon">
-                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         </div>
                         <h4>Personal Shopping</h4>
                         <div class="service-text">
@@ -367,7 +375,7 @@ This service can be provided virtually or in-person.</p>
                 <div class="col-md-6">
 
                     <div class="feature-image">
-					<iframe width="455" height="290" src="https://www.youtube.com/embed/dwfjayxRvqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="455" height="290" src="https://www.youtube.com/embed/bB4dBp2IEPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>                  
                     
                 </div> <!-- /.col -->
@@ -378,147 +386,258 @@ This service can be provided virtually or in-person.</p>
     <!-- End About Section -->
 
 
-    <!-- Start Portfolio -->
-    <section id="portfolio" class="light-bg p-top-80 p-bottom-80">
-        <div class="container">
+  <!-- Start Portfolio -->
+      <section id="portfolio" class="light-bg p-top-80 p-bottom-80">
+      <div class="container">
+      <!-- Section Title -->
+      <div class="section-title text-center m-bottom-30">
+      <h2><strong>Portfolio</strong></h2>
+      <div class="divider-center-small"></div>
+      </div>
+      <!-- Portfolio-filter -->
+      <ul class="pf-filter text-center list-inline">
+      <li><a href="#" data-filter="*" class="iso-active iso-button">All</a></li>
+      <li><a href="#" data-filter=".service1" class="iso-button">Service1</a></li>
+      <li><a href="#" data-filter=".service2" class="iso-button">Service2</a></li>
+      <li><a href="#" data-filter=".service3" class="iso-button">Service3</a></li>
+      <li><a href="#" data-filter=".video" class="iso-button">Video</a></li>
+      </ul>          
+      <!-- Portfolio -->
+      <div class="portfolio portfolio-isotope col-3 gutter">
+      <!-- Service1 ---1 -->
+      <div class="pf-item service1">
+      <a href="img/portfolio/1.png" class="pf-style lightbox-image mfp-image">
+      <div class="pf-image">
+      <img src="img/portfolio/1.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>service3</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+	  
+	     <!-- Service1 ---2 -->
+      <div class="pf-item service1">
+      <a href="img/portfolio/1.png" class="pf-style lightbox-image mfp-image">
+      <div class="pf-image">
+      <img src="img/portfolio/1.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>service3</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+	  
+	  	      <!-- Service1 ---3 -->
+      <div class="pf-item service1">
+      <a href="img/portfolio/1.png" class="pf-style lightbox-image mfp-image">
+      <div class="pf-image">
+      <img src="img/portfolio/1.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>service3</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
 
-            <!-- Section Title -->
-            <div class="section-title text-center m-bottom-30">
-                <h2><strong>Portfolio</strong></h2>
-                <div class="divider-center-small"></div>
-            </div>
-
-            <!-- Portfolio-filter -->
-            <ul class="pf-filter text-center list-inline">
-                <li><a href="#" data-filter="*" class="iso-active iso-button">All</a></li>
-                <li><a href="#" data-filter=".service1" class="iso-button">Behind the Scenes </a></li>
-                <li><a href="#" data-filter=".service2" class="iso-button">Closet Evaluation</a></li>
-                <li><a href="#" data-filter=".service3" class="iso-button">ANOTHER POSSIBILITY** POS DELETE</a></li>
-                <li><a href="#" data-filter=".video" class="iso-button">Videos</a></li>
-            </ul>          
-
-            <!-- Portfolio -->
-            <div class="portfolio portfolio-isotope col-3 gutter">
-
-                <!-- Portfolio Item -->
-                <div class="pf-item service3">
-                    <a href="img/portfolio/1.png" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/1.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">POSS DELETE</h4>
-                                            <p>service3</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Portfolio Item -->
-                <div class="pf-item service1 service2">
-                    <a href="img/portfolio/2.png" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/2.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">CLOSET EVALUATION</h4>
-                                            <p>VIVIANA</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Portfolio Item -->
-                <div class="pf-item video service2">
-                    <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
-                        <div class="pf-image">
-                            <img src="img/portfolio/3.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">CLOSET EVALUATION</h4>
-                                            <p>VIVIANA</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Portfolio Item -->
-                <div class="pf-item video service2">
-                    <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
-                        <div class="pf-image">
-                            <img src="img/portfolio/4.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">CLOSET EVALUATION</h4>
-                                            <p>VIVIANA</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Portfolio Item -->
-                <div class="pf-item service3 service1">
-                    <a href="img/portfolio/5.png" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/5.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Anna Hernandez, Dem. Candidate AZ State Senate LD24</h4>
-                                            <p>Headshot Photoshoot</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Portfolio Item -->
-                <div class="pf-item service3 service1">
-                    <a href="img/portfolio/6.png" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/6.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Anna Hernandez, Dem. Candidate AZ State Senate LD24</h4>
-                                            <p>Headshot Photoshoot</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-            </div> <!-- Portfolio -->
-            
-        </div> <!-- /.container -->
-    </section>
-    <!-- End Portfolio -->
+	  
+	    <!-- Service2 ---1 -->
+      <div class="pf-item service2">
+      <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
+      <div class="pf-image">
+      <img src="img/portfolio/4.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>Video, Web Design</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+	  	  
+	    <!-- Service2 ---2 -->
+      <div class="pf-item service2">
+      <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
+      <div class="pf-image">
+      <img src="img/portfolio/4.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>Video, Web Design</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+	    <!-- Service2 ---3 -->
+      <div class="pf-item service2">
+      <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
+      <div class="pf-image">
+      <img src="img/portfolio/4.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>Video, Web Design</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+      <!-- Service3 ---1 -->
+      <div class="pf-item service3">
+      <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
+      <div class="pf-image">
+      <img src="img/portfolio/4.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>Video, Web Design</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+	    <!-- Service3 ---2 -->
+      <div class="pf-item service3">
+      <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
+      <div class="pf-image">
+      <img src="img/portfolio/4.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>Video, Web Design</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+	  	  
+	    <!-- Service3 ---3 -->
+      <div class="pf-item service3">
+      <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
+      <div class="pf-image">
+      <img src="img/portfolio/4.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>Video, Web Design</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	  
+	 <!-- Video1 -->
+      <div class="pf-item video">
+      <a href="img/portfolio/6.png" class="pf-style lightbox-image mfp-image">
+      <div class="pf-image">
+      <img src="img/portfolio/6.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>service3, service1</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	 <!-- Video2 -->
+      <div class="pf-item video">
+      <a href="img/portfolio/6.png" class="pf-style lightbox-image mfp-image">
+      <div class="pf-image">
+      <img src="img/portfolio/6.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>service3, service1</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+	 <!-- Video3 -->
+      <div class="pf-item video">
+      <a href="img/portfolio/6.png" class="pf-style lightbox-image mfp-image">
+      <div class="pf-image">
+      <img src="img/portfolio/6.png" alt="">
+      <div class="overlay">
+      <div class="overlay-caption">
+      <div class="overlay-content">
+      <div class="pf-info white-color">
+      <h4 class="pf-title">Project Name</h4>
+      <p>service3, service1</p>
+      </div> <!-- .pf-info -->
+      </div> <!-- .overlay-content -->
+      </div> <!-- .overlay-caption -->
+      </div> <!-- .overlay -->
+      </div> <!-- .pf-image -->
+      </a> <!-- .pf-style -->
+      </div>
+      </div> <!-- Portfolio -->
+      </div> <!-- /.container -->
+      </section>
+      <!-- End Portfolio -->
 
 
  
@@ -544,96 +663,7 @@ This service can be provided virtually or in-person.</p>
     <!-- End Video Section -->
 
 
-    <!-- Start Team -->
-    <section id="team" class="p-top-80 p-bottom-50">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <!-- Section Title -->
-                    <div class="section-title text-center m-bottom-40">
-                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">Team Members</h2>
-                        <div class="divider-center-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
-                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"><em>Resolution possession discovered surrounded advantages has but few add. Yet walls times spoil put. Be it reserved contempt rendered smallest. Studied to passage it mention calling believe an.</em></p>
-                    </div>
-                </div> <!-- /.col -->
-            </div>  <!-- /.row -->
-
-            <div class="row">               
-                <!-- === Team Item 3 === -->    
-				<!--  <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-30">-->
-                <div class="col-md-6 p-bottom-30">
-                    <div class="team-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                        <div class="team-item-image">
-                            <div class="team-item-image-overlay">
-                                <div class="team-item-icons">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                            <img src="img/team/1.png" alt="" />
-                        </div>
-                        <div class="team-item-info">
-                            <div class="team-item-name">
-                                Andy Doe
-                            </div>
-                            <div class="team-item-position">
-                                Marketing
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.col -->
-                
-                <!-- === Team Item 4 === -->               
-                <div class="col-md-6 p-bottom-30">
-                    <div class="team-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                        <div class="team-item-image">
-                            <div class="team-item-image-overlay">
-                                <div class="team-item-icons">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                           
-              
-    <!-- End Team -->
-
-    <!-- Start Testimonial -->
-    <section id="testimonials" class="parallax-bg overlay-dark p-top-80 p-bottom-80" style="background-image:url(img/testimonial-bg.png)" data-stellar-background-ratio="0.5">
-
-        <!-- Section Title -->
-        <div class="section-title text-center white-color m-bottom-40">
-            <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">Testimonials</h2>
-            <div class="divider-center-small divider-white wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
-        </div>
-
-        <!-- === Testimonials === -->
-        <div id="owl-testimonials" class="owl-carousel owl-theme testimonial text-center white-color">
-
-            <!-- === Testimonial item 1 === -->
-            <div class="testimonial-item text-center">
-                <p class="testimonial-desc">Residence you satisfied and rapturous certainty two. Procured outweigh as outlived so so. On in bringing graceful proposal blessing of marriage outlived. Son rent face our loud near.</p>
-                <div class="testimonial-thumb">
-                    <img class="img-responsive" src="img/testimonial/1.png" alt="">
-                </div>
-                <h5 class="testimonial-author">Jenny Doe - Star Inc</h5>
-            </div>
-
-            <!-- === Testimonial item 2 === -->
-            <div class="testimonial-item text-center">
-                <p class="testimonial-desc">Excellent so to no sincerity smallness. Removal request delight if on he we. Unaffected in we by apartments astonished to decisively themselves. Offended ten old consider speaking.</p>
-                <div class="testimonial-thumb">
-                    <img class="img-responsive" src="img/testimonial/2.png" alt="">
-                </div>
-                <h5 class="testimonial-author">Kathy Doe - Service Corp</h5>
-            </div>
-
-        </div> <!-- /#owl-testimonials -->
-
-    </section>
-    <!-- End Testimonial -->
+    
 
     <!-- Start Contact -->
     <section id="contact" class="p-top-80 p-bottom-50">
@@ -676,7 +706,7 @@ This service can be provided virtually or in-person.</p>
                 <!-- === Contact Information === -->
                 <div class="col-md-12 p-bottom-30">
                     <address class="contact-info">
-                        <p class="m-bottom-30 wow slideInRight">Spring formal no county ye waited. My whether cheered at regular it of promise blushes perhaps.</p>
+                        <p class="m-bottom-30 wow slideInRight"></p>
 
                         <!-- === Location === -->
                         <div class="m-top-20 wow slideInRight">
@@ -684,10 +714,10 @@ This service can be provided virtually or in-person.</p>
                                 <i class="fa fa-location-arrow"></i>
                             </div>
                             <div class="contact-info-title">
-                                Address:
+                                Location:
                             </div>
                             <div class="contact-info-text">
-                                149 Null Street, New York, NY 098
+                                Phoenix, AZ 
                             </div>
                         </div>
 
@@ -731,12 +761,11 @@ This service can be provided virtually or in-person.</p>
         <div class="container">
             <small class="copyright pull-left"><a href="http://www.tabthemes.com/"></a>.</small>
             <div class="social-icon pull-right">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-pinterest"></i></a>
-                <a href="#"><i class="fa fa-google"></i></a>
-                <a href="#"><i class="fa fa-rss"></i></a>
-                <a href="#"><i class="fa fa-globe"></i></a>
+                <a href="https://www.facebook.com/E.VillStylesYou" target= "_blank"><i class="fa fa-facebook"  ></i></a>
+                
+                <a href="https://www.instagram.com/e.vill1003/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/evillstylesyou/" target= "_blank"><i class="fa fa-linkedin" ></i></a>
+                
             </div>
             <!-- /social-icon -->
         </div>
